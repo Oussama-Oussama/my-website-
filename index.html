@@ -1,66 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my website</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header class="banner">
-        <nav class="navigation">
-            <img src="./res/book-logo.htm" alt="" class="nav-logo">
-            <ul class="nav-items">
-               <li><a href="#" class="element">home</a></li>
-               <li><a href="#animations" class="element">menu</a></li>
-               <li><a href="#" class="element">contact</a></li>
-               <li><a href="#" class="element">products</a></li>     
-            </ul>
-        </nav>
-        <h2>I am realy excited</h2>
-        <h1>To inscript in this website</h1>
-    
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, nemo necessitatibus optio harum architecto placeat exercitationem fugiat, saepe unde odit tempore facere iste! Tempore officia excepturi beatae omnis porro? Obcaecati!
-            Possimus eos, facilis porro dolorum aliquam aliquid numquam nihil assumenda temporibus, officia architecto nam! Eos ex dolores incidunt placeat laudantium, eaque ipsam repellat eveniet cupiditate reprehenderit odit, libero enim! Explicabo!
-            Repellat est ad quae quod vero! Culpa, consequuntur impedit distinctio veniam quam laudantium. Facilis doloremque magni, dolor odit dolore officia excepturi blanditiis est repellat cumque odio nemo nisi necessitatibus natus.
-            Deleniti fugit exercitationem autem. Alias asperiores deserunt perspiciatis nostrum fugit aliquid, consequatur eos earum. Repellat ut id mollitia fugit, qui iusto modi enim, unde exercitationem laudantium aspernatur, beatae eum odio?</p>
+      <nav  class="navigation">
+        <img src="res/img2.jpg" alt="" class="nav-logo" />
+        <ul class="nav-items">
+          <li><a href="#">home</a></li>
+          <li><a href="#">menu</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">products</a></li>
+        </ul>
+        <div class="search">
+          <input type="search" name="" placeholder="search...." id="srch" />
+          <button>search</button>
         </div>
-        <form action="">
-            <label for="">Name</label><input type="text"><br>
-            <label for="">fullname</label><input type="text"><br>
-            <label for="">birth day</label><input type="date"><br>
-            <select>
-                <option hidden="">genre</option>
-                <option>mal</option>
-                <option>femal</option>
-            </select><br>
-            <label for="">email</label><input type="text" placeholder="usersname@gmail.com"><br>
-            <label for="">password</label><input type="password"><br>
-                <label for=""><h4>what is your favourit code </h4></label><br>
-            <input type="checkbox"><label for="">html</label><br>
-            <input type="checkbox"><label for="">css</label><br>
-            <input type="checkbox"><label for="">javascript</label><br>
-            <input type="checkbox"><label for="">jquery</label><br>
-                <label for=""><h4>you will be a great developer</h4></label>
-            <input type="radio"><label for="">yes</label><br>
-            <input type="radio"><label for="">noo</label><br>
-            <input type="radio"><label for="">maybe</label><br>
-        </form>
-    
-    </header>
-    <main id="animations">
-        <img src="res/images (1).jfif" alt="" width="400" height="400">
-        <img src="res/images (7).jfif" alt="" width="400" height="400">
-        <video controls autoplay>
-          <source src="res/20210720_072119.mp4" alt="" width="550" height="315">
-        </video>
-        <audio controls autoplay>
-            <source src="res/[EXCLU]_Soolking__Guérilla___PlanèteRap.mp3">
-        </audio><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tpvg7TdzWkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </main>
+      </nav>
+      <main>
+        <div class="container">
+          <h2>I am realy excited</h2>
 
-    <a href="./pages/home.html">home page</a>
-</body>
+          <h1>To inscript in this website</h1>
+
+          <div class="text">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Neque,<br />
+              nemo necessitatibus optio harum architecto placeat exercitationem
+              <br />
+              fugiat, saepe unde odit tempore facere iste! Tempore officia
+              <br />
+              excepturi beatae omnis porro? Obcaecati! Possimus eos, facilis
+              <br />
+              porro dolorum aliquam aliquid numquam nihil assumenda temporibus,
+              <br />
+              officia architecto nam! Eos ex dolores incidunt placeat <br />
+              laudantium, eaque ipsam repellat eveniet cupiditate reprehenderit
+              <br />
+              odit, libero enim! Explicabo! Repellat est ad quae quod vero!
+              <br />
+              Culpa, consequuntur impedit distinctio veniam quam laudantium.
+              <br />
+              Facilis doloremque magni, dolor odit dolore officia excepturi
+              <br />
+              blanditiis est repellat cumque odio nemo nisi necessitatibus
+            </p>
+          </div>
+        </div>
+        <form action="" class="form">
+            
+                <div>                <label for="">Name</label><input type="text" placeholder="Enter Your Name" class="inp"/>
+                </div>
+                <div>                <label for="">fullname</label><input type="text" placeholder="Enter Your Fullname" class="inp"/>
+                </div>
+                <div>                <label for="">birth day</label><input type="date" placeholder="Date" class="inp"/>
+                </div>
+      
+           
+            <div>
+                <select class="inp">
+                    <option hidden="">genre</option>
+                    <option class="opt">mal</option>
+                    <option class="opt">femal</option>
+                </select/>      
+            </div>
+            
+                <div>                <label for="">Email</label><input type="email" name="email" placeholder="Usersname@gmail.com" class="inp" /></div>
+                <div>                <label for="">Password</label><input type="password" placeholder="Password Here" class="inp" />   
+                </div>
+            
+            
+                <div>                <h3>what is your favourit code ?</h3>
+                </div>
+                <div>                <input type="checkbox" class="small" /><label for="">html</label>
+                </div>
+                <div>                <input type="checkbox" class="small" /><label for="">css</label>
+                </div>
+                <div>                <input type="checkbox" class="small" /><label for="">javascript</label>
+                </div>
+
+            
+            
+                <div>                <h3>Will you be a great developer ?</h3>
+                </div>
+                <div>                <input type="radio" class="small" /><label for="">yes</label>
+                </div>
+                <div>                <input type="radio" class="small"/><label for="">noo</label>
+                </div>
+                <button class="login">
+                    <h2>Incsription</h2>
+                </button>
+                      
+
+            
+      
+        </form>
+      </main>
+    </header>
+    <section id="animations">
+        <div class="images">      
+            <img src="res/images (1).jfif" alt=""  />
+            <img src="res/images (7).jfif" alt=""class="none" />
+            <img src="res/images (7).jfif" alt=""  />
+        </div>
+        <div class="control">
+            <div class="vid">
+                <video controls autoplay class="video">
+                    <source src="res/20210720_072119.mp4" alt="" width="550" height="315" />
+                </video> <br>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tpvg7TdzWkc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+    
+            </div>
+          <audio controls autoplay class="audio
+          ">
+                <source src="res/[EXCLU]_Soolking__Guérilla___PlanèteRap.mp3" /></audio
+          ><br />
+          <a href="./pages/home.html">home page</a>
+
+    
+        </div>
+    </section>
+
+  </body>
 </html>
